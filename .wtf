@@ -1,3 +1,5 @@
+--// beamed.wtf [UI] \\--
+
 local RunService = game:GetService("RunService")
 local settings = {
     folder_name = "beamed.wtf";
@@ -21,10 +23,10 @@ if not isfile(settings.folder_name.."/window_size.txt") then
     writefile(settings.folder_name.."/window_size.txt", "")
 end;
 local images = {
-    ['gradient90'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/blob/main/gradient.png";
-    ['gradient180'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/blob/main/gradient180.png";
-    ['arrow_down'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/blob/main/arrowdown.png";
-    ['arrow_up'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/blob/main/arrowup.png";
+    ['gradient90'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/main/gradient.png";
+    ['gradient180'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/main/gradient180.png";
+    ['arrow_down'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/main/arrowdown.png";
+    ['arrow_up'] = "https://raw.githubusercontent.com/BigHacker123/brokennotwork/main/arrowup.png";
 }
 for i,v in next, images do
     if not isfile(settings.folder_name..'/assets/'..i..'.ln') then
