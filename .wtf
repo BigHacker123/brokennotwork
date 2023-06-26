@@ -1,8 +1,7 @@
 local RunService = game:GetService("RunService")
--- settings (so u dont have to scroll)
 local settings = {
-    folder_name = "dextromethorphan";
-    default_accent = Color3.fromRGB(255,255,255);
+    folder_name = "beamed.wtf";
+    default_accent = Color3.fromRGB(208,123,255);
     drag_easying_style = "Quad";
     drag_easying_direction = "Out";
     drag_time = 0.5;
